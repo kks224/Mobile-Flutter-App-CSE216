@@ -1,0 +1,15 @@
+/* Define some standard variables for use throughout the rest of our CSS */
+:root {
+    --background-color: #FFFFFF;
+    --primary-color: #e0e0e0;
+    --accent-color: #ee0000;
+    --text-color: #000035;
+}
+
+/* Put some styles on the body tag */
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: Verdana, sans-serif;
+    overflow-x: hidden;
+}
